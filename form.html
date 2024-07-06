@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Blog</title>
+    <style>
+        
+        
+            label{
+                display: block;
+                margin-bottom: 10px; }
+                section{
+                    background-color: rgb(255, 196, 229);
+                }
+    </style>
+</head>
+<body>
+    <header>
+
+    </head>
+    <main>
+        <section>
+            <h1>Please fillup the form</h1>
+            <form>
+                <label for="email">Your Email :
+                <input  id=" email" type="email" placeholder="Your Email "></label>
+                <label for="Name">Your Name:
+                    <input  id="name" type="name" placeholder="Your Name">
+                </label>
+                <label for="Phone"> Phone:
+                    <input  id="phone" type="phone" placeholder="Your Phone">
+                </label>
+
+
+              <!--Eikane  jekono ekti  pitha  beche neyar  jonno name shob ek  deya hoyeche 
+                  id o alada hobe  and amra feildeset tag er moddhe korbo kaj ta ,
+                 box er moddhe pick just one emn kichu dekayte hole amra legend tag use korbo ,
+                eikane prothome fieldset tag tarpor legend tag er modde nam ta tarpor end legend tag kore, label tag start kore er bithor input tag er radio nite hobe then label tag end hobe ,fieldset o end hobe.....-->  
+                
+                
+                   <fieldset>
+                    <legend>
+                        pick one pitha
+                    </legend>
+                    <label for="Chithoi">
+                        <input type="radio" name="pitha" id="chithoi">Chithoi
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">vapa
+                    </label>  </fieldset>
+
+
+                  <!--Eikane  jekono ekti pitha beche neya  noitu shob beche neyar jonno name ek rokom deya hoini
+                 but id alada hobe  and amra feildeset tag er moddhe korbo kaj ta ,
+                 box er moddhe pick just one emn kichu dekayte hole amra legend tag use korbo ,
+                eikane prothome fieldset tag tarpor legend tag er modde nam ta tarpor end legend tag kore, label tag start kore er bithor input tag er cheakbox nite hobe then label tag end hobe ,fieldset o end hobe.....-->
+
+
+                <fieldset>
+                    <legend> Pick one or more pitha </legend>
+                        <label for="Puli">
+                            <input type="checkbox" name="puli" id="Puli">Puli
+                        </label>
+                        <label for="Patishapta">
+                            <input type="checkbox" name="patishapta" id="Patishapta">Patishapta </label>
+                          </fieldset>
+                          <fieldset>
+                            <legend>
+                                Speacial Instruction
+                            </legend>
+                          </fieldset>
+                          <input type="reset">
+                          <input type="submit">
+                        </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

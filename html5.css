@@ -1,0 +1,60 @@
+nav > ul > li{
+    display: inline;
+    
+}
+nav li {
+    text-decoration: none;
+    margin-right: 10px;
+    padding:5px
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li :hover{
+    background-color: coral;
+}
+ nav li.priya{
+    display: none;
+}
+nav li:hover.priya{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+}
